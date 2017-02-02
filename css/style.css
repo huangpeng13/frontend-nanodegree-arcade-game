@@ -1,3 +1,24 @@
 body {
     text-align: center;
+    overflow: hidden;
+}
+
+#win, #fail {
+	font-size: 5em;
+	display: none;
+	position: relative;
+	top: -480px;
+	padding-top: 150px;
+	background-repeat: no-repeat;
+	background-size: 120px;
+	background-position: top;
+}
+
+#win {
+	color: green;
+	background-image: url(../images/Star.png);
+}
+
+#fail {
+	color: red;
 }
